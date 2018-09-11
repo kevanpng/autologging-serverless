@@ -1,0 +1,7 @@
+#!/home/kevan/Desktop/python-trace/.venv/bin/python3.6m
+from __future__ import print_function
+from execution_trace.viewer.viewer import main
+
+if __name__ == '__main__':
+    print("Starting UI web server, please open the URL listed below.")
+    main()
